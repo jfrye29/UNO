@@ -107,7 +107,7 @@ int main(){
         takeTurn(deck, hands.at(gameState.currentPlayerIndex), discard, gameState);
     } while (!hands.at(current).empty());
     
-    cout << "Player " << gameState.currentPlayerIndex << " Wins the Game!" <<endl;
+    cout << "Player " << gameState.currentPlayerIndex - 1 << " Wins the Game!" <<endl;
     
     return 0;
 }
